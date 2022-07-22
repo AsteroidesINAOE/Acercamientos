@@ -71,7 +71,7 @@ header {
 }
 
 .loader .face .circle {
-  position: absolute;
+  position: relative;
   width: 50%;
   height: 0.1em;
   top: 50%;
@@ -82,7 +82,7 @@ header {
 }
 
 .loader .face .circle::before {
-  position: absolute;
+  position: relative;
   top: -0.5em;
   right: -0.5em;
   content: '';
