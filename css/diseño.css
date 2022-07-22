@@ -19,6 +19,16 @@ header {
 }
 
 /* Loader */
+.centrado{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	z-index: 999;
+	position: relative;
+}
+
 .loader {
   width: 20em;
   height: 20em;
