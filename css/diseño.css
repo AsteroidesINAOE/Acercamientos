@@ -19,6 +19,10 @@ header {
 }
 
 /* Loader */
+.hidden{
+	overflow: hidden;
+} 
+
 .centrado{
 	height: 100vh;
 	display: flex;
